@@ -33,7 +33,7 @@ public class CamTeste extends javax.swing.JPanel implements Runnable {
 		if (buff == null) {
 			return;
 		}
-		g.drawImage(buff, 5, 5, buff.getWidth(), buff.getHeight(), null);
+		g.drawImage(buff,0,0,buff.getWidth(), buff.getHeight(), null);
 	}
         @Override
 	public void run() {
